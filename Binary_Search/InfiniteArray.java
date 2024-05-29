@@ -1,4 +1,4 @@
-
+package Binary_Search;
 public class InfiniteArray{
     public static void main(String[] args){
         int[] arr = {1,2,4,5,7,8,10,13,15,18,23,25,28,33,36,37,38,41,43,45,46,48,49,50,51,67,69,70,71,73,75,81};
