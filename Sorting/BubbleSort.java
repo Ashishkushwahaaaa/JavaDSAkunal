@@ -21,9 +21,9 @@ public class BubbleSort {
                 }
             }
 
-            //if the array is already sorted than we need not to check for all the value of i
-            //if for no one values of j during any pass, the swapping is not done that's mean now all the element are sorted i.e array is
-            //sorted so need to check further for the other values of i. 
+            //if the array is already sorted then we need not to check for all the value of i
+            //if for no one values of j during any pass, the swapping is not done that means now all the element are sorted i.e array is
+            //sorted so no need to check further for the other values of i. 
             if (!swapped) {
                 break;
             }
