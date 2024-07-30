@@ -50,7 +50,7 @@ public class String_and_Immutability {
         System.out.println("a"+1);
         System.out.println("a"+new ArrayList<>());
         // System.out.println(new Integer(56)+new ArrayList<>()); //This expression can't be solved as + operator can only work if atleast one is string type
-        System.out.println(new Integer(56)+ "" +new ArrayList<>());
+        // System.out.println(new Integer(56)+ "" +new ArrayList<>());
         // Java doesn't support operator overloaded but only exception is + operator in case of string only.
         // + operator works in case of primitives and atleast one is a string type.
 
