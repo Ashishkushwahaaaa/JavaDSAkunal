@@ -2,7 +2,7 @@ package MathsOperator;
 
 public class Prime {
     public static void main(String[] args) {
-        int n = 56;
+        int n = 340;
         for (int i = 2; i < n; i++) {
             System.out.println(i +" "+ Isprime(i));
         }
