@@ -1,4 +1,4 @@
-package MathsOperator;
+package BitwiseOperator;
 
 public class TotalBits {
     public static void main(String[] args) {

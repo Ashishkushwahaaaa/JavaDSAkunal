@@ -1,4 +1,4 @@
-package MathsOperator;
+package BitwiseOperator;
 
 public class EvenOdd_bitwise {
     public static void main(String[] args) {

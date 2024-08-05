@@ -1,4 +1,4 @@
-package MathsOperator;
+package BitwiseOperator;
 
 public class MagicNO {
     public static void main(String[] args) {

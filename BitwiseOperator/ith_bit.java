@@ -1,4 +1,4 @@
-package MathsOperator;
+package BitwiseOperator;
 
 public class ith_bit {
     public static void main(String[] args) {
