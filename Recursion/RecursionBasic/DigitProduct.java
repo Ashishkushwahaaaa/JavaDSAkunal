@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.RecursionBasic;
 
 public class DigitProduct {
     public static void main(String[] args) {

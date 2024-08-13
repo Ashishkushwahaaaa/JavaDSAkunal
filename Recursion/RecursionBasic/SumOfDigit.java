@@ -1,4 +1,4 @@
-package Recursion;
+package Recursion.RecursionBasic;
 
 public class SumOfDigit {
     public static void main(String[] args) {
