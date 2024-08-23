@@ -1,4 +1,4 @@
-package Backtracking.MazeProblem;
+package Backtracking_Maze.Backtracking;
 
 import java.util.Arrays;
 
