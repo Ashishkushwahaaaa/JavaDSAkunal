@@ -1,0 +1,13 @@
+ENCAPSULATION: Wrapping up the implementation of the data member and the methods in a class.
+               It is the implementation level and cares about how things work.
+               It focus on internal.
+
+ABSTRACTION: Hiding unnecessary details and sharing valuable information;
+            It is the design level and don't cares about how thing work.
+            It focus on External.
+
+ex: the abstract methods like ArrayList(), linkedlist, arrays, and others can be directly used without caring how does it work is ABSTRACTION but the real implementation of that method is Encapsulation;
+
+Encapsulation is the subprocess of data hiding and data hiding is done by making the variables or the methods as private so that it cannot be accessed directly outside that class but it can be accessed by getters or setters and is called encapsulation as is giving the implementation of how we can use the private stuff and encapsulating in a class;
+
+
