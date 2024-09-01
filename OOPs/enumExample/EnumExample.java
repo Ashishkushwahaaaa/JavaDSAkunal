@@ -36,13 +36,14 @@ public class EnumExample {
 
 
        public static void main(String[] args) {
-            Week week = Week.TUESDAY;
+            Week week = Week.TUESDAY; //Invoking constructor through one constant will execute for all the constants;
 
             // for (Week day : Week.values()) {
             //     System.out.println(day);
             // }
 
-            // System.out.println(week.ordinal());
+            System.out.println(week.ordinal());
+
 
 
        }
