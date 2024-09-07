@@ -72,7 +72,7 @@ public class WildCardExample<T extends Number> {
         // ArrayList list = new ArrayList();
 
         WildCardExample<Number> list = new WildCardExample<>();
-        list.add(23);
+        list.add(4);
 
         for (int i = 1; i < 18; i++) {
             list.add(2*i);

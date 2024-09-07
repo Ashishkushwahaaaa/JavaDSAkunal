@@ -15,6 +15,9 @@ public class Main {
         list2.add(6);
         System.out.println(list2);
 
+
+        // The Vector class implements a growable array of objects. Like an array, it contains components that can be accessed using an integer index. However, the size of a Vector can grow or shrink as needed to accommodate adding and removing items after the Vector has been created.
+        
         List<Integer> vector = new Vector<>();
         vector.add(3);
         vector.add(8);
