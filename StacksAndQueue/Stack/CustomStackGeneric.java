@@ -1,20 +1,20 @@
-package StacksAndQueue;
+package StacksAndQueue.Stack;
 
-public class CustomStack {
+public class CustomStackGeneric<T> {
     
-    int[] data ; // can be accessed within the package;
+    Object[] data ; // can be accessed within the package;
     private static final int DEFAULT_SIZE=10;
 
-    CustomStack(){
+    CustomStackGeneric(){
         this(DEFAULT_SIZE);
     }
-    CustomStack(int size){
-        data = new int[size];
+    CustomStackGeneric(int size){
+        data = new Object[size];
     }
 
     private int ptr = -1; //here ptr is -1 hence first we have to increase the ptr and then insert;
 
-    public boolean push(int value) throws StackException{
+    public boolean push(T value) throws StackException{
         if (isFull()) {
             throw new StackException("Stack is full");
         }
@@ -22,20 +22,20 @@ public class CustomStack {
         data[ptr] = value;
         return true;
     }
-    public int pop() throws StackException{
+    
+    @SuppressWarnings("unchecked")
+    public T pop() throws StackException{
         if (isEmpty()) {
             throw new StackException("Stack is Empty, can't delete from empty stack");
         }
-        // int removed = data[ptr];
-        // ptr--;
-        // return removed;
-        return data[ptr--];
+        return (T)data[ptr--];
     }
-    public int peek() throws StackException{
+    @SuppressWarnings("unchecked")
+    public T peek() throws StackException{
         if (isEmpty()) {
             throw new StackException("Can't peek from empty stack");
         }
-        return data[ptr];
+        return (T)data[ptr];
     }
     
     boolean isEmpty() {
@@ -55,3 +55,4 @@ public class CustomStack {
         return ptr==data.length-1;
     }
 }
+

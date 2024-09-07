@@ -1,4 +1,4 @@
-package StacksAndQueue;
+package StacksAndQueue.Stack;
 
 public class StackMain {
     public static void main(String[] args) throws StackException{

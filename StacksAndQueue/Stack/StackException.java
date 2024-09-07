@@ -1,4 +1,4 @@
-package StacksAndQueue;
+package StacksAndQueue.Stack;
 
 public class StackException extends Exception {
     public StackException (String message){

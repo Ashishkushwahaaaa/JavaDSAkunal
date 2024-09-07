@@ -1,4 +1,4 @@
-package StacksAndQueue;
+package StacksAndQueue.Queue;
 
 public class CustomQueue {
     protected int[] data;
