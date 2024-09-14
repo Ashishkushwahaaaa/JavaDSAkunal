@@ -1,4 +1,4 @@
-package largeString;
+package largeString_Numbers.LargeString;
 
 import java.text.DecimalFormat;
 import java.util.Arrays;
