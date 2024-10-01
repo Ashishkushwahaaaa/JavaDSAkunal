@@ -20,7 +20,9 @@ public class BinarySearchTree{
     public BinarySearchTree(){
 
     }
-
+    public Node getRoot(){
+        return root;
+    }
     public boolean isEmpty(){
         return root==null;
     }

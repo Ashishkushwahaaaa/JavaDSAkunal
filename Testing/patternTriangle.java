@@ -2,8 +2,12 @@ package Testing;
 
 public class patternTriangle {
     public static void main(String[] args) {
-        patternTriangle printpattern = new patternTriangle();
-        printpattern.pattern(5, 0);
+        // patternTriangle printpattern = new patternTriangle();
+        // printpattern.pattern(5, 0);
+        int a = 8;
+        int b = 3;
+        int c = Math.abs(b-a);
+        System.out.println(c);
     }
     public void pattern(int r,int c){
         if (r==0) {

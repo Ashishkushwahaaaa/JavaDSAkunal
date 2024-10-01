@@ -1,4 +1,4 @@
-package LinkedList.SinglyLL.InterviewQuestions;
+package LinkedList.InterviewQuestions;
 
 
 public class CycleQuestion {

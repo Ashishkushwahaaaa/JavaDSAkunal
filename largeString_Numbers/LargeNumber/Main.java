@@ -30,7 +30,7 @@ public class Main {
         System.out.println(b.pow(2));
         System.out.println(b.negate());
         System.out.println(a.divideToIntegralValue(b));
-
+        System.out.println();
 
         // constant
         BigDecimal constant = BigDecimal.ONE;

@@ -19,7 +19,7 @@ public class Son extends Parent {
 
     @Override
     void partner() {
-        System.out.println("I love Monika");
+        System.out.println("I love her");
     }
 
 }
