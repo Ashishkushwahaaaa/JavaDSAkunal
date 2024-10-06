@@ -82,7 +82,10 @@ public class String_and_Immutability {
         System.out.println(Arrays.toString(myname.toCharArray())); //it will print the arrays of the characters
         System.out.println(myname.toLowerCase());
         System.out.println(myname.indexOf("ai"));
-        System.out.println(          "      Ashish       ".strip());
+        System.out.println("      Ashish       ".strip());
         System.out.println(Arrays.toString(myname.split(" "))); //Here inside split method we have to define any criteria to split the string.In this case it is an empty spaced string so where ever an space occures in our string it splits from there.
+        String address = "1.1.1.1"; //IPv4 address;
+        System.out.println(address.replace(".", "[.]"));
+        System.out.println(address.replaceAll("\\.", "[.]"));
     }
 }
